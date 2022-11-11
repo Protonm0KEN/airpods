@@ -1,0 +1,357 @@
+@import 'font.css';
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+/* HEADER START */
+body{
+	background-color: #151515;
+}
+.header{
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #151515 100%), url(../Images/Header.png);
+	height: 700px;
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	
+}
+.container{
+	max-width: 1140px;
+	padding: 0 15px;
+	margin: 0 auto; 
+}
+.header__nav{
+	background: #282828;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.header__nav-menu{
+	display: flex;
+	align-items: center;
+	padding: 6px 0;
+}
+.header__nav-list{
+	display: flex;
+	column-gap: 30px;
+}
+.header__nav-logo{
+	margin-right: 30px;
+	transition: 1.2s;
+}
+.header__nav__menu__list-link{
+	font-family: 'mont-bold';
+	font-size: 20px;
+	line-height: 24px;
+	text-align: right;
+	color: #FFFFFF;
+	transition: 1.2s;
+}
+.header__nav-content{
+	display: flex;
+	justify-content: space-between;
+}
+.header__nav-icons{
+	display: flex;
+	align-items: center;
+	width: 65px;
+	column-gap: 25px;
+}
+.header__nav__icons-lupa{
+	transition: 1.2s;
+}
+.header__nav__icons-shop{
+	transition: 1.2s;
+}
+.header__description-title{
+	font-family: 'Prosto';
+	font-size: 100px;
+    line-height: 75px;
+    margin-bottom: 38px;
+    color: #ffffff;
+	text-align: center;
+	transition: 1.2s;
+}
+.header__description{
+	margin-top: 269px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.header__description-button{
+	display: flex;
+	justify-content: center;
+}
+/* Header END */
+/* MAIN BEGIN */
+.main{
+	margin-top: 30px;
+}
+.main__white-description{
+	font-family: 'mont-regular';
+	font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #ffffff;
+    margin-right: 30px;
+	transition: 1.2s;
+}
+.main__white__airpods__img{
+	transition: 1.2s;
+}
+.main__white-airpods{
+	display: flex;
+	height: 365px;
+	margin-bottom: 50px;
+}
+.header__description-button{
+	transition: 1.2s;
+}
+.main__black__airpods-description{
+	font-family: 'mont-regular';
+	font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #ffffff;
+	margin-left: 87px;
+	transition: 1.2s;
+}
+.main__black-airpods{
+	display: flex;
+	height: 365px;
+	margin-bottom: 50px;
+	align-items: center;
+}
+.main__black-img{
+	transition: 1.2s;
+}
+.main__white-airpod{
+	display: flex;
+	height: 365px;
+	margin-bottom: 50px;
+	align-items: center;
+}
+.main__white__airpod-description{
+	font-family: 'mont-bold';
+	font-size: 20px;
+	line-height: 24px;
+	text-align: right;
+	color: #FFFFFF;
+	transition: 1.2s;
+}
+.line{
+	width: 61px;
+	height: 1px;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+.main__white__airpod-img{
+	transition: 1.2s;
+}
+.main__cards{
+	margin-bottom: 50px;
+	display: flex;
+	column-gap: 30px;
+}
+.main_cards__title{
+	font-family: 'mont-bold';
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+.main__cards-card{
+	background: #FFFFFF;
+	border-radius: 6px;
+	text-align: center;
+	width: 255px;
+	padding: 15px 0;
+}
+.main_cards_description{
+	font-size: 14px;
+	line-height: 17px;
+	text-transform: uppercase;
+	color: #000000;
+	font-family: 'mont-regular';
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.main_cards_view-btn{
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-family: 'mont-bold';
+	padding: 7px 57px;
+	border: 2px solid black;
+	background-color: #000000;
+	border-radius: 6px;
+	transition: 2s;
+}
+.footer{
+	background: #282828;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+	padding: 81px 0;
+}
+.footer__nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer__nav__list-link{
+	font-size: 20px;
+	line-height: 24px;
+	text-align: right;
+	color: #FFFFFF;
+	font-family: 'mont-bold';
+	transition: 1.2s;
+}
+.footer__nav-list{
+	display: flex;
+	column-gap: 30px;
+}
+.footer__nav__visa__mastercard{
+	display: flex;
+	column-gap: 29px;
+}
+.footer__nav-logo{
+	transition: 1.2s;
+}
+.footer__nav__visa-img{
+	transition: 1.2s;
+}
+.footer__nav__mastercard-img{
+	transition: 1.2s;
+}
+.main__cards-card{
+	transition: 1.2s;
+}
+
+
+
+/* Header-hover-begin */
+.header__nav-logo:hover{
+	transform: scale(1.1);
+	transition: 1.2s;
+}
+.header__nav__menu__list-link:hover{
+	transform: scale(1.3);
+	transition: 1.2s;
+}
+.header__nav__icons-lupa:hover{
+	transform: scale(1.3);
+	transition: 1.2s;
+}
+.header__nav__icons-shop:hover{
+	transform: scale(1.3);
+	transition: 1.2s;
+}
+.header__description-title:hover{
+	transform: scale(1.1);
+	transition: 1.2s;
+}
+.header__description-button:hover{
+	transform: scale(1.1);
+	transition: 1.2s;
+}
+/* Header-hover-end */
+
+/* Main-hover-main */
+.main__white__airpods__img:hover{
+	transform: scale(1.1);
+	transition: 1.2s;
+}
+.main__white-description:hover{
+	transform: scale(1.1);
+	transition: 1.2s;
+}
+.main__black__airpods-description:hover{
+	transform: scale(1.1);
+	transition: 1.2s;
+}
+.main__black-img:hover{
+	transform: scale(1.1);
+	transition: 1.2s;
+}
+.main__white__airpod-img:hover{
+	transform: scale(1.1);
+	transition: 1.2s;
+}
+.main__white__airpod-description:hover{
+	transform: scale(1.1);
+	transition: 1.2s;
+}
+.main__cards-card:hover{
+	transform: scale(1.1);
+	transition: 1.2s;
+}
+.main_cards_view-btn:hover{
+	background: #FFFFFF;
+	color: #000000;
+	transition: 1s;
+}
+/* Main-hover-end */
+
+/* Footer-hover-begin */
+.footer__nav__visa-img:hover{
+	transform: scale(1.3);
+	transition: 1.2s;
+}
+.footer__nav__mastercard-img:hover{
+	transform: scale(1.3);
+	transition: 1.2s;
+}
+.footer__nav-logo:hover{
+	transform: scale(1.3);
+	transition: 1.2s;
+}
+.footer__nav__list-link:hover{
+	transform: scale(1.3);
+	transition: 1.2s;
+}
+/* Footer-hover-end */
+/* Scroll */
+::-webkit-scrollbar{
+	width: 20px;
+	height: 150px;
+	
+}
+::-webkit-scrollbar-track{
+	background: #282828 ;
+}
+::-webkit-scrollbar-thumb{
+	background: #ffffff;
+	width: 150px;
+}
+/* Scroll End */

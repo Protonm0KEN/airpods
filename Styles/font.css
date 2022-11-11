@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'mont-bold';
+    src: url(../Fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'mont-medium';
+    src: url(../Fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: 'mont-regular';
+    src: url(../Fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'Prosto';
+    src: url(../Fonts/ProstoOne-Regular.ttf);
+}
